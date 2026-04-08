@@ -8,4 +8,8 @@ function init() {
     alert("Mazzi: " + textbox.value);
   }
 
-    
+    button.addEventListener('click', showMeText);
+  }
+  
+ window.addEventListener('load', init);
+
